@@ -1,0 +1,88 @@
+body {
+    border: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Angkor';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/angkor-v28-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../src/fonts/ibm-plex-mono-v19-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../src/fonts/ibm-plex-mono-v19-latin-600.woff2') format('woff2'); 
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 250px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.topic {
+    font-size: 6rem;
+    height: 200px;
+    font-family: 'Angkor', cursive;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 20px 60px;
+    background-color: rgb(211, 19, 83);
+    background-image: url(../src/images/_.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 900;
+}
+
+
+.data {
+    margin-bottom: 100px;
+    border: 5px dashed black;
+    padding: 50px;
+}
+
+.watermark {
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.data:first-child {
+    margin-top: 100px;
+}
