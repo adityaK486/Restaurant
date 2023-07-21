@@ -2,28 +2,6 @@ import './style.css';
 
 const content = document.getElementById("content");
 
-
-//header
-const header = document.createElement('div');
-header.classList.add('header');
-
-const logo = document.createElement('img');
-logo.classList.add('logo');
-logo.setAttribute('src',"../src/images/baratie_logo.jpg");
-logo.setAttribute('alt',"Baratie");
-
-const topic = document.createElement('div');
-topic.classList.add('topic');
-
-const p = document.createElement('p');
-p.textContent = "Baratie";
-
-content.appendChild(header);
-header.appendChild(logo);
-header.appendChild(topic);
-topic.appendChild(p);
-
-
 //info
 const info = document.createElement('div');
 info.classList.add('info');
@@ -46,15 +24,3 @@ info.appendChild(data);
 info.appendChild(data1);
 info.appendChild(data2);
 
-
-//footer
-const footer = document.createElement('div');
-footer.classList.add('footer');
-
-const watermark = document.createElement('img');
-watermark.classList.add('watermark');
-watermark.setAttribute('src','../src/images/one-piece_Logo.png');
-watermark.setAttribute('alt','one-piece');
-
-content.appendChild(footer);
-footer.appendChild(watermark);
