@@ -86,3 +86,27 @@ body {
 .data:first-child {
     margin-top: 100px;
 }
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+.home,.menu,.contact {
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 20px 34px;
+    background-color: black;
+    color: white;
+    border: 1px solid wheat;
+    border-right: none;
+}
+
+.home {
+    border-top: none;
+}
+
+.contact {
+    border-bottom: none;
+}
