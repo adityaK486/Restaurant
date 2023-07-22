@@ -1,6 +1,6 @@
 import './style.css';
 
-const content = document.getElementById("content");
+const home = document.createElement("div");
 
 //info
 const info = document.createElement('div');
@@ -19,8 +19,9 @@ const data2 = document.createElement('p');
 data2.classList.add('data');
 data2.textContent = "The Baratie staff is noted for being a staff of outcasts, exiles and pirate types. Its owner is a renowned former pirate captain, and Sanji himself came to help co-found the restaurant after being exiled from his family. Most of the chefs (including Patty and Carne) also joined up after being chased out of other restaurants and responding to Zeff's adverts for 'damn cooks'. When the restaurant came under attack by the Krieg Pirates, the cooking staff decided to defend it because it was the one place that had accepted them. The staff mostly fights with oversized cutlery such as forks and knives unlike Zeff and Sanji.";
 
-content.appendChild(info);
+home.appendChild(info);
 info.appendChild(data);
 info.appendChild(data1);
 info.appendChild(data2);
 
+export default home;
