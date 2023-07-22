@@ -92,7 +92,7 @@ body {
     flex-direction: column;
 }
 
-.home,.menu,.contact {
+.homebtn,.menubtn,.contactbtn {
     font-family: 'IBM Plex Mono';
     font-weight: 600;
     font-size: 2rem;
@@ -103,10 +103,49 @@ body {
     border-right: none;
 }
 
-.home {
+.homebtn {
     border-top: none;
 }
 
-.contact {
+.contactbtn {
     border-bottom: none;
+}
+
+/**********************************************//*MENU*//*****************************************************/
+
+h1 {
+    font-family: 'Angkor', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: rgb(122, 83, 11);
+}
+
+.fname {
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+}
+
+.main,.desrt,.dr {
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.card1,.card2,.card3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 50px;
+    padding: 0 30px;
+}
+
+#content {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: burlywood;
+}
+
+.mainh1 {
+    margin-bottom: 70px;
 }
