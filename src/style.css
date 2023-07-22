@@ -111,6 +111,10 @@ body {
     border-bottom: none;
 }
 
+button:active,.active {
+    background-color: brown;
+  }
+
 /**********************************************//*MENU*//*****************************************************/
 
 h1 {
@@ -148,4 +152,37 @@ h1 {
 
 .mainh1 {
     margin-bottom: 70px;
+}
+
+/**********************************************//*CONTACT*//**************************************************/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 50px;
+    padding: 0 30px;
+}
+
+.card {
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px 40px;
+}  
+
+.name {
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.image {
+    height: 600px;
+    width:350px;
+}
+
+.para {
+    font-family: 'IBM Plex Mono';
+    font-weight: 600;
+    font-size:1.5rem;
+    padding: 20px 70px;
 }
