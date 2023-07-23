@@ -1,4 +1,17 @@
 import './style.css';
+import d1 from '../src/images/d1.png';
+import d2 from '../src/images/d2.png';
+import d3 from '../src/images/d3.png';
+import d4 from '../src/images/d4.png';
+import d5 from '../src/images/d5.jpg';
+import dess1 from '../src/images/dess1.png';
+import dess2 from '../src/images/dess2.png';
+import dess3 from '../src/images/dess3.png';
+import drink1 from '../src/images/drink1.png';
+import drink2 from '../src/images/drink2.png';
+import drink3 from '../src/images/drink3.png';
+import drink4 from '../src/images/drink4.png';
+import drink5 from '../src/images/drink5.png';
 
 //div of menu
 const menu = document.createElement('div');
@@ -22,7 +35,7 @@ main1.classList.add('main');
 
 const d1img = document.createElement('img');
 d1img.classList.add('fpic');
-d1img.setAttribute('src','../src/images/d1.png');
+d1img.setAttribute('src',d1);
 
 const d1p = document.createElement('p');
 d1p.classList.add('fname');
@@ -33,7 +46,7 @@ main2.classList.add('main');
 
 const d2img = document.createElement('img');
 d2img.classList.add('fpic');
-d2img.setAttribute('src','../src/images/d2.png');
+d2img.setAttribute('src',d2);
 
 const d2p = document.createElement('p');
 d2p.classList.add('fname');
@@ -45,7 +58,7 @@ main3.classList.add('main');
 
 const d3img = document.createElement('img');
 d3img.classList.add('fpic');
-d3img.setAttribute('src','../src/images/d3.png');
+d3img.setAttribute('src',d3);
 
 const d3p = document.createElement('p');
 d3p.classList.add('fname');
@@ -57,7 +70,7 @@ main4.classList.add('main');
 
 const d4img = document.createElement('img');
 d4img.classList.add('fpic');
-d4img.setAttribute('src','../src/images/d4.png');
+d4img.setAttribute('src',d4);
 
 const d4p = document.createElement('p');
 d4p.classList.add('fname');
@@ -69,7 +82,7 @@ main5.classList.add('main');
 
 const d5img = document.createElement('img');
 d5img.classList.add('fpic');
-d5img.setAttribute('src','../src/images/d5.jpg');
+d5img.setAttribute('src',d5);
 
 const d5p = document.createElement('p');
 d5p.classList.add('fname');
@@ -94,7 +107,7 @@ desrt1.classList.add('desrt');
 
 const desrt1img = document.createElement('img');
 desrt1img.classList.add('fpic');
-desrt1img.setAttribute('src','../src/images/dess1.png');
+desrt1img.setAttribute('src',dess1);
 
 const desrt1p = document.createElement('p');
 desrt1p.classList.add('fname');
@@ -106,7 +119,7 @@ desrt2.classList.add('desrt');
 
 const desrt2img = document.createElement('img');
 desrt2img.classList.add('fpic');
-desrt2img.setAttribute('src','../src/images/dess2.png');
+desrt2img.setAttribute('src',dess2);
 
 const desrt2p = document.createElement('p');
 desrt2p.classList.add('fname');
@@ -118,7 +131,7 @@ desrt3.classList.add('desrt');
 
 const desrt3img = document.createElement('img');
 desrt3img.classList.add('fpic');
-desrt3img.setAttribute('src','../src/images/dess3.png');
+desrt3img.setAttribute('src',dess3);
 
 const desrt3p = document.createElement('p');
 desrt3p.classList.add('fname');
@@ -143,7 +156,7 @@ dr1.classList.add('dr');
 
 const dr1img = document.createElement('img');
 dr1img.classList.add('fpic');
-dr1img.setAttribute('src','../src/images/drink1.png');
+dr1img.setAttribute('src',drink1);
 
 const dr1p = document.createElement('p');
 dr1p.classList.add('fname');
@@ -155,7 +168,7 @@ dr2.classList.add('dr');
 
 const dr2img = document.createElement('img');
 dr2img.classList.add('fpic');
-dr2img.setAttribute('src','../src/images/drink2.png');
+dr2img.setAttribute('src',drink2);
 
 const dr2p = document.createElement('p');
 dr2p.classList.add('fname');
@@ -167,7 +180,7 @@ dr3.classList.add('dr');
 
 const dr3img = document.createElement('img');
 dr3img.classList.add('fpic');
-dr3img.setAttribute('src','../src/images/drink3.png');
+dr3img.setAttribute('src',drink3);
 
 const dr3p = document.createElement('p');
 dr3p.classList.add('fname');
@@ -179,7 +192,7 @@ dr4.classList.add('dr');
 
 const dr4img = document.createElement('img');
 dr4img.classList.add('fpic');
-dr4img.setAttribute('src','../src/images/drink4.png');
+dr4img.setAttribute('src',drink4);
 
 const dr4p = document.createElement('p');
 dr4p.classList.add('fname');
@@ -191,7 +204,7 @@ dr5.classList.add('dr');
 
 const dr5img = document.createElement('img');
 dr5img.classList.add('fpic');
-dr5img.setAttribute('src','../src/images/drink5.png');
+dr5img.setAttribute('src',drink5);
 
 const dr5p = document.createElement('p');
 dr5p.classList.add('fname');
