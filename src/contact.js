@@ -1,4 +1,8 @@
 import './style.css';
+import Zeff from '../src/images/Zeff.webp';
+import sanji2 from '../src/images/sanji2.jpeg';
+import Patty from '../src/images/Patty.webp';
+import Carne from '../src/images/Carne.webp';
 
 //div for contact 
 const contact = document.createElement('div');
@@ -19,7 +23,7 @@ card1.classList.add('card');
 //chef1 image
 const card1img = document.createElement('img');
 card1img.classList.add('image');
-card1img.setAttribute('src','../src/images/Zeff.webp');
+card1img.setAttribute('src',Zeff);
 card1img.setAttribute('alt','Zeff pic');
 
 //chef1 name
@@ -39,7 +43,7 @@ card2.classList.add('card');
 //chef2 image
 const card2img = document.createElement('img');
 card2img.classList.add('image');
-card2img.setAttribute('src','../src/images/sanji2.jpeg');
+card2img.setAttribute('src',sanji2);
 card2img.setAttribute('alt','Sanji pic');
 
 //chef2 name
@@ -59,7 +63,7 @@ card3.classList.add('card');
 //chef3 image
 const card3img = document.createElement('img');
 card3img.classList.add('image');
-card3img.setAttribute('src','../src/images/Patty.webp');
+card3img.setAttribute('src',Patty);
 card3img.setAttribute('alt','Patty pic');
 
 //chef3 name
@@ -79,7 +83,7 @@ card4.classList.add('card');
 //chef4 image
 const card4img = document.createElement('img');
 card4img.classList.add('image');
-card4img.setAttribute('src','../src/images/Carne.webp');
+card4img.setAttribute('src',Carne);
 card4img.setAttribute('alt','Carne pic');
 
 //chef4 name
