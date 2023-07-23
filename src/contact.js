@@ -1,8 +1,8 @@
 import './style.css';
-import Zeff from '../src/images/Zeff.webp';
+import Zeff from '../src/images/Zeff.png';
 import sanji2 from '../src/images/sanji2.jpeg';
-import Patty from '../src/images/Patty.webp';
-import Carne from '../src/images/Carne.webp';
+import Patty from '../src/images/Patty.png';
+import Carne from '../src/images/Carne.png';
 
 //div for contact 
 const contact = document.createElement('div');
